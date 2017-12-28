@@ -31,3 +31,5 @@ return client.index({
 }
 
 exports.adduser = adduser;
+module.exports=exports;
+

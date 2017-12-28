@@ -29,7 +29,7 @@ function addbook(book) {
       "book_category": book.category,
       "book_publisher_name": book.publisher_name,
       "book_complete": book.complete,
-      "book_mature": book.mature,
+      "book_mature": book.mature
     }
   }, function (err, resp, status) {
     if (err)
@@ -39,4 +39,24 @@ function addbook(book) {
   });
 
 }
+
+// Random example
+
+// addbook({
+//   name: "Siva",
+//   cover: "book.cover",
+//   description: "book.description",
+//   author: "Vikranth",
+//   user_id: 1,
+//   tags: ["fantasy"],
+//   category: "some",
+//   publisher_name: "penbound",
+//   complete: true,
+//   mature: "false",
+//   id:1
+// });
+
+
 exports.addbook = addbook;
+
+module.exports=exports;
